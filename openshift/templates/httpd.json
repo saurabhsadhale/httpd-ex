@@ -163,6 +163,8 @@
         "template": {
           "metadata": {
             "name": "${NAME}",
+            "annotations": {
+                "sidecar.istio.io/inject": 'True'
             "labels": {
               "name": "${NAME}"
             }
