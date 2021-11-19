@@ -164,7 +164,7 @@
           "metadata": {
             "name": "${NAME}",
             "annotations": {
-                "sidecar.istio.io/inject": 'True'
+                "sidecar.istio.io/inject": "True"
             "labels": {
               "name": "${NAME}"
             }
